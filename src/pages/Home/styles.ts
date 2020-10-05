@@ -1,35 +1,30 @@
 import styled from 'styled-components';
 
-import starsBackground from '../../assets/background/stars.jpg';
-
 export const Container = styled.div`
   padding: 16px 80px;
   height: 800px;
-  /* 
-  background-image: linear-gradient(
-      to bottom,
-      rgb(255, 255, 255, 0) 5%,
-      #160c29
-    ),
-    url(${starsBackground});
-  background-size: contain; */
+
+  div {
+    position: absolute;
+    max-width: 90%;
+  }
 `;
 
 export const Header = styled.nav`
-  display: flex;
+  position: relative;
   max-width: 300px;
   margin: 0 auto;
   flex-direction: row;
-  justify-content: space-between;
 
   a {
     color: #fff;
     font-size: 16px;
+    margin: 20px;
   }
 `;
 
 export const Intro = styled.div`
-  margin-top: 200px;
+  margin-top: 20%;
   font-family: 'Fira Mono';
 
   h3 {
@@ -45,6 +40,7 @@ export const Intro = styled.div`
     color: #fff;
     font-size: 62px;
     font-weight: bold;
+    min-width: 500px;
 
     strong {
       color: #b620e0;

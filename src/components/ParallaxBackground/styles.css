@@ -19,15 +19,15 @@
 .card1 {
   width: 100%;
   height: 100%;
-  background-image: url('../../assets/background/backgroundStars.svg');
+  background-image: url('../../assets/background/stars.jpg');
 }
 
-.card3 {
+/* .card3 {
   opacity: 0.9;
   width: 25ch;
   height: 25ch;
   background-image: url();
-}
+} */
 
 .card4 {
   width: 10ch;
