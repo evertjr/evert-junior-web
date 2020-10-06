@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div``;
+
+export const Introduction = styled.div`
   padding: 16px 80px;
   height: 800px;
 
@@ -23,7 +25,7 @@ export const Header = styled.nav`
   }
 `;
 
-export const Intro = styled.div`
+export const IntroText = styled.div`
   margin-top: 20%;
   font-family: 'Fira Mono';
 
