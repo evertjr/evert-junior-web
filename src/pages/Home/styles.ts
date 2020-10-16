@@ -1,14 +1,19 @@
 import styled from 'styled-components';
+import ParallaxBackground from '../../components/ParallaxBackground';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  padding: 0 16vh;
+`;
 
 export const Introduction = styled.div`
-  padding: 16px 80px;
-  height: 800px;
+  height: 100vh;
+  background: #160c29;
+  margin: 0 -16vh;
 
   div {
     position: absolute;
     max-width: 90%;
+    max-height: 90vh;
   }
 `;
 
@@ -17,6 +22,7 @@ export const Header = styled.nav`
   max-width: 300px;
   margin: 0 auto;
   flex-direction: row;
+  padding-top: 16px;
 
   a {
     color: #fff;
@@ -26,7 +32,7 @@ export const Header = styled.nav`
 `;
 
 export const IntroText = styled.div`
-  margin-top: 20%;
+  margin: 20% 16vh 0;
   font-family: 'Fira Mono';
 
   h3 {
@@ -46,6 +52,19 @@ export const IntroText = styled.div`
 
     strong {
       color: #b620e0;
+    }
+  }
+`;
+
+export const WhatIDo = styled.div`
+  background: #fff;
+  height: 80vh;
+
+  div {
+    padding-top: 30px;
+
+    h1 {
+      margin-top: 40px;
     }
   }
 `;

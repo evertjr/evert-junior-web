@@ -2,7 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import ParallaxBackground from '../../components/ParallaxBackground';
 
-import { Container, Header, Introduction, IntroText } from './styles';
+import { Container, Header, Introduction, IntroText, WhatIDo } from './styles';
 
 const Home: React.FC = () => {
   return (
@@ -48,6 +48,14 @@ const Home: React.FC = () => {
           />
         </IntroText>
       </Introduction>
+      <WhatIDo>
+        <div>
+          <span>O que eu faço</span>
+          <h1>
+            Eu acredito que a tecnologia deve nos empoderar, não complicar.
+          </h1>
+        </div>
+      </WhatIDo>
     </Container>
   );
 };
